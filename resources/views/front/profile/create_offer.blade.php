@@ -54,6 +54,18 @@
                                         
                                     </div>
                                 </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                    <input type="text" name="longitude" placeholder="longitude" class="form-control">
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                    <input type="text" name="latitude" placeholder="latitude" class="form-control">
+                                        
+                                    </div>
+                                </div>
                                 <div class="col-12">
                                     <div class="form-group">
                                         <div class="custom-file">

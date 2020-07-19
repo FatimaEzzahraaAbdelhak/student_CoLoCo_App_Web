@@ -26,10 +26,12 @@ class PagesController extends Controller
     function housingsDetails($id)
     {
         $housing = Housing::findOrFail($id);
+        $housings = Housing::all();
         $housing->load('user');
 
         return view('front.pages.housing_details', [
-            'housing' => $housing
+            'housing' => $housing,
+            'housings' => $housings,
         ]);
     }
 
